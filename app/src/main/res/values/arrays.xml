@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hosts">
+        <item>Melia azedarach</item>
+        <item>Fraxinus americanus</item>
+        <item>Acer negundo</item>
+        <item>Tabebouia spp.</item>
+        <item>Tipuana tipu</item>
+        <item>Robinia pseudoacacia</item>
+        <item>Acacias spp.</item>
+        <item>Prosopis spp.</item>
+        <item>Ulmus sp.</item>
+        <item>Ligustrum sp.</item>
+        <item>Celtis tala</item>
+        <item>Aspidosperma quebracho blanco</item>
+        <item>Populus spp.</item>
+    </string-array>
+</resources>

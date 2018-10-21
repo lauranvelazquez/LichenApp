@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:onClick="openCamera"
+        android:id="@+id/photo_btn"
+        android:elevation="5dp"
+        android:drawableRight="@android:drawable/ic_menu_camera"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Add sample"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/label"
+        android:text="Host : "
+        android:textSize="18sp"
+        android:layout_below="@+id/photo_btn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/label"
+        android:layout_alignRight="@+id/label"
+        android:layout_below="@+id/label"
+        android:entries="@array/hosts"
+        >
+
+    </Spinner>
+
+    <LinearLayout
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/cancel_btn"
+            android:elevation="5dp"
+            android:onClick="closeActivity"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="Cancel"/>
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:elevation="5dp"
+            android:id="@+id/accept_btn"
+            android:onClick="sendToServer"
+            android:text="Accept"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

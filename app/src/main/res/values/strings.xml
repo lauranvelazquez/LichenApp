@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">open lichen</string>
-    <string name="title_activity_map">MapActivity</string>
+    <string name="new_report_sub">Are there lichens in the trees around you ? Come on and report them !</string>
+    <string name="map_subs">See your own and other peoples past submissions, give it a try ! </string>
+    <string name="access_token">pk.eyJ1Ijoiam9hYmFyY2VuYSIsImEiOiJjam5qYWN2dGUweGY2M2tvamh6ZzRxeGhoIn0.f_ewxWNWSO3UAnP6ZOZe_g</string>
 </resources>
