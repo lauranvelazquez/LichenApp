@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">open lichen</string>
+    <string name="title_activity_map">MapActivity</string>
 </resources>
