@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MapActivity" />
-        <activity android:name=".FirstActivity"></activity>
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".AreaEditorActivity"></activity>
     </application>
 
 </manifest>
