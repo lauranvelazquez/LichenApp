@@ -1,3 +1,5 @@
+#IMPORTANTE! El mantenimiento del proyecto se movio a : `https://github.com/cloudhackgroup`
+
 #Open Lichen App
 Es el cliente para la generacion de reportes y visualizacion en mapa del los
 indices calculados en el servidor.
